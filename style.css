@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.page-actions-cont{
+    height: 3rem;
+    background-color: #218c74;
+    display: flex;
+    align-items: flex-end;
+}
+.page-actions{
+    margin: 0.5rem;
+    color: #f1f2f6 ;
+    
+}
+.cellprop-actions-cont{
+    height:3rem;
+    background-color: lightpink;
+}
+.formula-actions-cont{
+    height: 3rem;
+    background-color: lightslategray;
+}
+.grid-cont{
+    height: calc( 100vh - 3rem - 3rem - 3rem - 3rem );
+    background-color: lightgoldenrodyellow;
+    
+}
+.sheet-actions-cont{
+    height: 3rem;
+    background-color: lightsalmon;
+}
+
